@@ -80,3 +80,17 @@ footer a {
 .qr img {
   width: 200px;
 }
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+.order {
+  transition: background 0.3s, transform 0.2s;
+}
+.order:hover {
+  background: #1da851;
+  transform: scale(1.05);
+}
