@@ -104,3 +104,12 @@ footer a {
   padding:10px;
   width:80%;
 }
+.scan {
+  text-align:center;
+  padding:40px 0;
+}
+
+.scan img {
+  border:8px solid #eee;
+  border-radius:12px;
+}
