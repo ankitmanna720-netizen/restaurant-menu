@@ -1,31 +1,19 @@
-const menu = [
-  { name: "Chicken Biryani", price: 180, item: "Chicken Biryani" },
-  { name: "Mutton Biryani", price: 250, item: "Mutton Biryani" },
-  { name: "Chicken Roll", price: 80, item: "Chicken Roll" },
-  { name: "Chicken Burger", price: 120, item: "Chicken Burger" }
-];
-
-function loadMenu() {
-  const grid = document.getElementById("menuGrid");
-  grid.innerHTML = "";
-  menu.forEach(m => {
-    grid.innerHTML += `
-      <div class="card">
-        <h3>${m.name}</h3>
-        <p>₹${m.price}</p>
-        <a class="order"
-        href="https://wa.me/91XXXXXXXXXX?text=I want to order ${m.item}">
-        Order
-        </a>
-      </div>`;
+function filterMenu(category) {
+  const cards = document.querySelectorAll(".card");
+  cards.forEach(card => {
+    if (category === "all" || card.classList.contains(category)) {
+      card.style.display = "block";
+    } else {
+      card.style.display = "none";
+    }
   });
 }
 
-window.onload = loadMenu;
-function sendOrder(){
-  const n = name.value;
-  const i = item.value;
-  const p = phone.value;
-  window.location =
-  `https://wa.me/91XXXXXXXXXX?text=Name:${n}%0AItem:${i}%0APhone:${p}`;
+function sendOrder() {
+  const name = document.getElementById("name").value;
+  const item = document.getElementById("item").value;
+  const phone = document.getElementById("phone").value;
+
+  const msg = `Name: ${name}%0AItem: ${item}%0APhone: ${phone}`;
+  window.open(`https://wa.me/919123456789?text=${msg}`, "_blank");
 }
