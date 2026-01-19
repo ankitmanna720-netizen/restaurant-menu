@@ -116,6 +116,13 @@
   </a>
 </div>
 <section class="menu">
+  <div class="categories">
+  <button onclick="filterMenu('all')">All</button>
+  <button onclick="filterMenu('biryani')">Biryani</button>
+  <button onclick="filterMenu('rice')">Rice</button>
+  <button onclick="filterMenu('chinese')">Chinese</button>
+  <button onclick="filterMenu('snacks')">Snacks</button>
+  </div>
   <h2>Our Menu</h2>
 <section class="form">
   <h2>Place Order</h2>
@@ -141,18 +148,34 @@
   </a>
   </section>
   <div class="menu-grid">
-
+<div class="card biryani">
+  <img src="images/biryani.jpg">
+  <h3>Chicken Biryani</h3>
+  <p>₹180</p>
+  <a class="order"
+     href="https://wa.me/919123456789?text=I want Chicken Biryani ₹180">
+     Order
+  </a>
+</div>
     <div class="card">
       <img src="images/biryani.jpg">
       <h3>Chicken Biryani</h3>
-      <p>₹180</p>
+      <p>₹150 Full</p>
       <a class="order"
 href="https://wa.me/919123456789?text=Hello, I want to order Chicken Biryani">
 Order
 
       </a>
     </div>
+div class="card">
+      <img src="images/biryani.jpg">
+      <h3>Chicken Biryani</h3>
+      <p>₹90 Half</p>
+      <a class="order"
+href="https://wa.me/919123456789?text=Hello, I want to order Chicken Biryani">
+Order
 
+      </a>
     <div class="card">
       <img src="images/mutton.jpg">
       <h3>Mutton Biryani</h3>
@@ -176,7 +199,7 @@ Order
     <div class="card">
       <img src="images/burger.jpg">
       <h3>Chicken Burger</h3>
-      <p>₹120</p>
+      <p>₹100</p>
       <a class="order"
          href="https://wa.me/919123456789?text=I want to order Chicken Burger">
          Order
