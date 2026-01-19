@@ -1,14 +1,5 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  text-align: center;
-  padding-top: 50px;
-}
-
-h1 {
-  color: #c0392b;
-}
-
-p {
-  font-size: 18px;
+function orderNow() {
+  const phone = "919123456789";
+  const msg = "Hello, I want to order food";
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`);
 }
