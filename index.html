@@ -56,6 +56,21 @@ onkeyup="searchItem(this.value)">
   </section>
   
 <div class="menu-grid">
+  <div class="card biryani" data-price="180">
+  <img src="images/biryani.jpg">
+  <h3>Chicken Biryani</h3>
+  <p class="price">₹180</p>
+
+  <div class="qty">
+    <button onclick="changeQty(this,-1)">−</button>
+    <span>1</span>
+    <button onclick="changeQty(this,1)">+</button>
+  </div>
+
+  <button class="order" onclick="addToOrder(this,'Chicken Biryani')">
+    Order
+  </button>
+  </div>
     <!-- Item 2 -->
 <div class="card">
   <img src="images/mutton-biryani.jpg">
