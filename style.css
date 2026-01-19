@@ -206,3 +206,34 @@ footer a {
 .card img[src=""] {
   display: none;
 }
+.qty {
+  display:flex;
+  justify-content:center;
+  gap:10px;
+  margin:10px 0;
+}
+
+.qty button {
+  background:#eee;
+  border:none;
+  padding:5px 10px;
+  font-size:18px;
+  cursor:pointer;
+  border-radius:5px;
+}
+
+.qty span {
+  font-weight:bold;
+  min-width:20px;
+  text-align:center;
+}
+
+.search {
+  width:90%;
+  max-width:400px;
+  padding:10px;
+  margin:15px auto;
+  display:block;
+  border-radius:20px;
+  border:1px solid #ccc;
+}
