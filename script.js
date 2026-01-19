@@ -1,1 +1,1 @@
-// JavaScript ready for future features
+// empty for now
