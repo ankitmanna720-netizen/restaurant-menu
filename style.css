@@ -1,5 +1,53 @@
-function orderNow() {
-  const phone = "919123456789";
-  const msg = "Hello, I want to order food";
-  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`);
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background: #e53935;
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 5px 0 0;
+}
+
+.info {
+  text-align: center;
+  padding: 15px;
+}
+
+.info button {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.menu {
+  padding: 15px;
+}
+
+.menu h2 {
+  text-align: center;
+}
+
+.item {
+  background: white;
+  margin: 10px 0;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  font-weight: bold;
 }
