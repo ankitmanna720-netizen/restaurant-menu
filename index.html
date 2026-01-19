@@ -1,46 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Ankit Food Corner</title>
-  <link rel="stylesheet" href="style.css?v=2">
-  <style>
-body {
-  background: yellow !important;
-}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Ankit Food Corner</h1>
-  <p>Best Biryani & Fast Food</p>
-</header>
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay">
+    <h1>Ankit Food Corner</h1>
+    <p>Best Biryani & Fast Food</p>
+    <button onclick="orderNow()">Order on WhatsApp</button>
+  </div>
+</section>
 
+<!-- INFO -->
 <section class="info">
-  <p>📞 Phone: <strong>9123456789</strong></p>
-  <button onclick="orderNow()">Order on WhatsApp</button>
+  📞 Call us: <strong>9123456789</strong>
 </section>
 
+<!-- MENU -->
 <section class="menu">
-  <h2>Menu</h2>
+  <h2>Our Menu</h2>
 
-  <div class="item">
-    <span>Chicken Biryani</span>
-    <span>₹180</span>
+  <div class="menu-grid">
+    <div class="card">
+      <img src="images/biryani.jpg">
+      <h3>Chicken Biryani</h3>
+      <p>₹180</p>
+    </div>
+
+    <div class="card">
+      <img src="images/biryani.jpg">
+      <h3>Mutton Biryani</h3>
+      <p>₹250</p>
+    </div>
+
+    <div class="card">
+      <img src="images/roll.jpg">
+      <h3>Chicken Roll</h3>
+      <p>₹80</p>
+    </div>
+
+    <div class="card">
+      <img src="images/burger.jpg">
+      <h3>Chicken Burger</h3>
+      <p>₹120</p>
+    </div>
   </div>
-
-  <div class="item">
-    <span>Mutton Biryani</span>
-    <span>₹250</span>
-  </div>
-
-  <div class="item">
-    <span>Chicken Roll</span>
-    <span>₹80</span>
-  </div>
-
 </section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Ankit Food Corner | All Rights Reserved
+</footer>
 
 <script src="script.js"></script>
 </body>
