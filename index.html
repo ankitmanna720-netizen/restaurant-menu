@@ -18,7 +18,15 @@
 <!-- MENU -->
 <section class="menu">
   <h2>Our Menu</h2>
-
+<section class="form">
+  <h2>Place Order</h2>
+  <form onsubmit="sendOrder();return false;">
+    <input id="name" placeholder="Your Name" required>
+    <input id="item" placeholder="Item Name" required>
+    <input id="phone" placeholder="Phone Number" required>
+    <button type="submit">Send on WhatsApp</button>
+  </form>
+</section>
   <div class="menu-grid">
 
     <div class="card">
