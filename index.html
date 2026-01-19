@@ -16,7 +16,90 @@
 </section>
 
 <!-- MENU -->
-  <div class="card">
+
+  </a>
+</div>
+<section class="menu">
+  <div class="categories">
+  <button onclick="filterMenu('all')">All</button>
+  <button onclick="filterMenu('biryani')">Biryani</button>
+  <button onclick="filterMenu('rice')">Rice</button>
+  <button onclick="filterMenu('chinese')">Chinese</button>
+  <button onclick="filterMenu('snacks')">Snacks</button>
+  </div>
+  <h2>Our Menu</h2>
+<section class="form">
+  <h2>Place Order</h2>
+  <form onsubmit="sendOrder();return false;">
+    <input id="name" placeholder="Your Name" required>
+    <input id="item" placeholder="Item Name" required>
+    <input id="phone" placeholder="Phone Number" required>
+    <button type="submit">Send on WhatsApp</button>
+  </form>
+</section
+  <section class="scan">
+  <h2>Scan & Order</h2>
+
+  <img
+   src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mann a720-netizen.github.io/"
+   alt="QR Code">
+
+  <br><br>
+
+  <a class="order"
+  href="https://wa.me/919123456789">
+  Order on WhatsApp
+  </a>
+  </section>
+  <div class="menu-grid">
+<div class="card biryani">
+  <img src="images/biryani.jpg">
+  <h3>Chicken Biryani</h3>
+  <p>₹180</p>
+  <a class="order"
+     href="https://wa.me/919123456789?text=I want Chicken Biryani ₹180">
+     Order
+
+
+     </a>
+    </div>
+div class="card">
+      <img src="images/biryani.jpg">
+      <h3>Chicken Biryani</h3>
+      <p>₹90 Half</p>
+      <a class="order"
+href="https://wa.me/919123456789?text=Hello, I want to order Chicken Biryani">
+Order
+
+      </a>
+    <div class="card">
+      <img src="images/mutton.jpg">
+      <h3>Mutton Biryani</h3>
+      <p>₹250</p>
+      <a class="order"
+         href="https://wa.me/919123456789?text=I want to order Mutton Biryani">
+         Order
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="images/roll.jpg">
+      <h3>Chicken Roll</h3>
+      <p>₹80</p>
+      <a class="order"
+         href="https://wa.me/919123456789?text=I want to order Chicken Roll">
+         Order
+      </a>
+    </div>
+
+    <div class="card">
+      <img src="images/burger.jpg">
+      <h3>Chicken Burger</h3>
+      <p>₹100</p>
+      <a class="order"
+         href="https://wa.me/919123456789?text=I want to order Chicken Burger">
+         Order
+          <div class="card">
   <img src="https://images.unsplash.com/photo-1600628422019-2b37e9c9a0e5">
   <h3>Egg Biryani</h3>
   <p>₹150</p>
@@ -113,96 +196,6 @@
   <a class="order"
      href="https://wa.me/919123456789?text=I want to order Chicken Manchurian">
      Order
-  </a>
-</div>
-<section class="menu">
-  <div class="categories">
-  <button onclick="filterMenu('all')">All</button>
-  <button onclick="filterMenu('biryani')">Biryani</button>
-  <button onclick="filterMenu('rice')">Rice</button>
-  <button onclick="filterMenu('chinese')">Chinese</button>
-  <button onclick="filterMenu('snacks')">Snacks</button>
-  </div>
-  <h2>Our Menu</h2>
-<section class="form">
-  <h2>Place Order</h2>
-  <form onsubmit="sendOrder();return false;">
-    <input id="name" placeholder="Your Name" required>
-    <input id="item" placeholder="Item Name" required>
-    <input id="phone" placeholder="Phone Number" required>
-    <button type="submit">Send on WhatsApp</button>
-  </form>
-</section
-  <section class="scan">
-  <h2>Scan & Order</h2>
-
-  <img
-   src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://mann a720-netizen.github.io/"
-   alt="QR Code">
-
-  <br><br>
-
-  <a class="order"
-  href="https://wa.me/919123456789">
-  Order on WhatsApp
-  </a>
-  </section>
-  <div class="menu-grid">
-<div class="card biryani">
-  <img src="images/biryani.jpg">
-  <h3>Chicken Biryani</h3>
-  <p>₹180</p>
-  <a class="order"
-     href="https://wa.me/919123456789?text=I want Chicken Biryani ₹180">
-     Order
-  </a>
-</div>
-    <div class="card">
-      <img src="images/biryani.jpg">
-      <h3>Chicken Biryani</h3>
-      <p>₹150 Full</p>
-      <a class="order"
-href="https://wa.me/919123456789?text=Hello, I want to order Chicken Biryani">
-Order
-
-      </a>
-    </div>
-div class="card">
-      <img src="images/biryani.jpg">
-      <h3>Chicken Biryani</h3>
-      <p>₹90 Half</p>
-      <a class="order"
-href="https://wa.me/919123456789?text=Hello, I want to order Chicken Biryani">
-Order
-
-      </a>
-    <div class="card">
-      <img src="images/mutton.jpg">
-      <h3>Mutton Biryani</h3>
-      <p>₹250</p>
-      <a class="order"
-         href="https://wa.me/919123456789?text=I want to order Mutton Biryani">
-         Order
-      </a>
-    </div>
-
-    <div class="card">
-      <img src="images/roll.jpg">
-      <h3>Chicken Roll</h3>
-      <p>₹80</p>
-      <a class="order"
-         href="https://wa.me/919123456789?text=I want to order Chicken Roll">
-         Order
-      </a>
-    </div>
-
-    <div class="card">
-      <img src="images/burger.jpg">
-      <h3>Chicken Burger</h3>
-      <p>₹100</p>
-      <a class="order"
-         href="https://wa.me/919123456789?text=I want to order Chicken Burger">
-         Order
       </a>
     </div>
 
