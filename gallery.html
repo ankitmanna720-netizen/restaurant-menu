@@ -2,71 +2,40 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Food Gallery | Ankit Food Corner</title>
+  <title>Food Gallery</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .gallery {
-      padding: 20px;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 15px;
-    }
-    .card {
-      background: white;
-      border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      height: 120px;
-      object-fit: cover;
-    }
-    .card h3 {
-      margin: 10px 0 5px;
-    }
-    .card p {
-      color: red;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-  </style>
-  .gallery {
-  justify-items: center;
-}
 </head>
 <body>
 
-<header>
-  <h1>Ankit Food Corner</h1>
-  <p>Our Special Dishes</p>
-</header>
+<section class="menu">
+  <h2>Food Gallery</h2>
 
-<section class="gallery">
-  <div class="card">
-<img src="https://images.unsplash.com/photo-1604908177522-040c1b7b91f1?auto=format&fit=crop&w=800&q=80">
-    <h3>Chicken Biryani</h3>
-    <p>₹180</p>
+  <div class="menu-grid">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1604908177522-040c1b79b11f">
+      <h3>Chicken Biryani</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1628294898516-344152572ee8">
+      <h3>Mutton Biryani</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1606755962773-d324e5a13086">
+      <h3>Chicken Roll</h3>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
+      <h3>Chicken Burger</h3>
+    </div>
+
   </div>
 
-  <div class="card">
-    <img src="https://images.unsplash.com/photo-1628294896516-344152572ee8">
-    <h3>Mutton Biryani</h3>
-    <p>₹250</p>
-  </div>
-
-  <div class="card">
-    <img src="https://images.unsplash.com/photo-1606755962773-d324e5a13086">
-    <h3>Chicken Roll</h3>
-    <p>₹80</p>
-  </div>
-
-  <div class="card">
-    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349">
-    <h3>Chicken Burger</h3>
-    <p>₹120</p>
-  </div>
+  <br>
+  <a class="gallery-link" href="index.html">Back to Menu</a>
 </section>
 
 </body>
