@@ -78,3 +78,18 @@ function filterItems(type) {
   });
 }
 </script>
+<script>
+function filterFood(cat){
+  let cards=document.querySelectorAll('.card');
+  cards.forEach(c=>{
+    c.style.display=(cat=='all'||c.classList.contains(cat))?'block':'none';
+  });
+}
+
+function searchFood(){
+  let v=document.getElementById('search').value.toLowerCase();
+  document.querySelectorAll('.card').forEach(c=>{
+    c.style.display=c.innerText.toLowerCase().includes(v)?'block':'none';
+  });
+}
+</script>
