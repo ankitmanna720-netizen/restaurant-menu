@@ -22,3 +22,10 @@ function loadMenu() {
 }
 
 window.onload = loadMenu;
+function sendOrder(){
+  const n = name.value;
+  const i = item.value;
+  const p = phone.value;
+  window.location =
+  `https://wa.me/91XXXXXXXXXX?text=Name:${n}%0AItem:${i}%0APhone:${p}`;
+}
