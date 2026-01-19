@@ -73,3 +73,10 @@ footer a {
   color: #25D366;
   text-decoration: none;
 }
+.qr {
+  text-align: center;
+  margin: 40px 0;
+}
+.qr img {
+  width: 200px;
+}
