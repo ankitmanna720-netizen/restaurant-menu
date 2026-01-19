@@ -155,3 +155,44 @@ footer a {
   text-decoration: none;
   font-size: 14px;
 }
+.categories {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.categories button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #25d366;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.order {
+  display: inline-block;
+  margin: 10px;
+  padding: 6px 16px;
+  background: #25d366;
+  color: white;
+  border-radius: 20px;
+  text-decoration: none;
+}
